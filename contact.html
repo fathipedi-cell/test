@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تماس با باشگاه پدرام</title>
+  <link rel="stylesheet" href="css/theme.css">
+  <style>
+    /* استایل مشابه صفحه اصلی */
+    body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+}
+
+header, footer {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  color: var(--color-on-primary);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>تماس با ما</h1>
+    <nav>
+      <a href="index.html">خانه</a> |
+      <a href="services.html">خدمات</a> |
+      <a href="gallery.html">گالری</a>
+    </nav>
+  </header>
+
+  <section>
+    <form>
+      <input type="text" placeholder="نام" required>
+      <input type="email" placeholder="ایمیل" required>
+      <textarea placeholder="پیام شما" required></textarea>
+      <button type="submit">ارسال</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 باشگاه پدرام</p>
+  </footer>
+</body>
+</html>

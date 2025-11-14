@@ -1,0 +1,64 @@
+:root {
+  
+    --color-primary: #e53935;
+    --color-on-primary: #ffffff;
+    --color-primary-container: #ffdad4;
+    --color-on-primary-container: #410002;
+  
+    --color-secondary: #35e5e1;
+    --color-on-secondary: #ffffff;
+    --color-secondary-container: #d0f8f6;
+    --color-on-secondary-container: #00201f;
+  
+    --color-tertiary: #a6e535;
+    --color-on-tertiary: #ffffff;
+    --color-tertiary-container: #f1ffd0;
+    --color-on-tertiary-container: #1f2f00;
+  
+    --color-background: #f4f4f4;
+    --color-on-background: #1c1b1f;
+    --color-surface: #ffffff;
+    --color-on-surface: #1c1b1f;
+  
+    --color-error: #b00020;
+    --color-on-error: #ffffff;
+    --color-error-container: #fcd8df;
+    --color-on-error-container: #37000a;
+  
+    --color-accent-1: #1E3A8A;
+    --color-accent-2: #333333;
+    --color-accent-3: #d32f2f;
+  }
+  :root {
+    --primary-color: #d32f2f; /* قرمز انرژی‌بخش */
+    --background-dark: #1c1c1c;
+    --text-light: #f5f5f5;
+  }
+  
+  .main-menu {
+    background-color: var(--background-dark);
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .main-menu a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .main-menu a:hover {
+    color: var(--primary-color);
+  }
+
+  
